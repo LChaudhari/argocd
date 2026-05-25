@@ -78,6 +78,7 @@ Create the cluster:
 
 ```bash
 kind create cluster --name argocd-cluster --config kind-config.yaml
+kind export kubeconfig --name argocd-cluster
 ```
 
 Verify:
