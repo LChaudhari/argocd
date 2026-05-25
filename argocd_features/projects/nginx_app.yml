@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/LChaudhari/argocd.git  # Git repo
     targetRevision: main        # Branch to watch
-    path: ui_approach/nginx     # Path in repo with manifests
+    path:  argocd_features/projects/     # Path in repo with manifests
   destination:
     server: https://172.19.0.2:6443  # Target cluster, run `argocd cluster list` to see
     namespace: frontend          # Namespace inside that cluster
