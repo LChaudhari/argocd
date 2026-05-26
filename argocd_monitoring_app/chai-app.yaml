@@ -12,7 +12,7 @@ spec:
   source:
     repoURL: https://github.com/LChaudhari/argocd-demos-projects.git # Git repository containing the app manifests, replace <your-username>
     targetRevision: main         # Git branch, tag, or commit to track
-    path: applicationsets/chai-app   # Path within the repo where manifests are located
+    path: monitoring/chai-app   # Path within the repo where manifests are located
   destination:
     server: https://172.19.0.3:6443  # Kubernetes API server address (in-cluster)
     namespace: default            # Namespace where the app will be deployed
