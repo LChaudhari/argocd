@@ -11,7 +11,7 @@ spec:
     targetRevision: main                  # Git branch or tag to track
     path: declarative_approach/online_shop   # Path within the repo to the app manifests
   destination:
-    server: https://kubernetes.default.svc # Kubernetes API server URL (default for in-cluster)
+    server: https://172.19.0.3:6443  # Kubernetes API server URL (default for in-cluster)
     namespace: default                    # Namespace to deploy the app into
   syncPolicy:
     automated:                           # Enables automated sync
